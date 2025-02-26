@@ -1,0 +1,185 @@
+    body{
+        margin: 0;
+        background-color: white;
+        width: 100%;
+        height: 4835px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .ilkdiv{
+        width: 100%;
+        height: 812.53px;
+        
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .navbar{
+        width: 100%;
+        height: 94px;
+        
+        display: grid;
+        align-self: center;
+        grid-template-columns: 1fr 1fr 1fr  1fr;
+        
+    }
+    .logo{
+        
+       margin-top: 8%;
+        
+
+    }
+    .logo a{
+        text-decoration: none;
+        color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .logoMetin{
+        font-family: Monstserrat ,sans-serif;
+        font-weight: bold;
+        font-size: 34px;
+    }
+    .logoResim{
+        
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logoResim img{
+        width: 40%;
+        height: 75%;
+        margin-right: 5%;
+    }
+    .sayfalar {
+        font-family: Poppins,sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        grid-column: span 2;
+        margin-top: 40px;
+        margin-left: 16%;
+        
+    }
+    .sayfalar a{
+        text-decoration: none;
+        color: black;
+        margin-left: 10%;
+    }
+    .ikonlar{
+        margin-top: 32px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20%;
+    }
+    .ikonlar img {
+        width: 100%;
+        height: 60%;
+    }
+    .ikonlar a{
+        text-decoration: none;
+        margin-left: 16%;
+        
+    }
+    .ilkTanitim {
+        width: 100%;
+        height: 718.53px;
+        background-image: url('../img/scandinavian-interior-mockup-wall-decal-background 1.png');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .ilkBilgi {
+        width: 44%;
+        max-width: 643px;
+        height: 443px;
+        background-color: #FFF3E3;
+        border-radius: 10px;
+        margin-top: 150px;
+        margin-bottom: 110px;
+        margin-right: 30px;
+        display: grid;
+        
+    }
+    .ilkMiniBaslik{
+        font-family: Poppins,sans-serif;
+        color:black;
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 41px;
+        margin-top: 50px;
+    }
+    .ilkBaslik{
+        font-family: Poppins,sans-serif;
+        color: #B88E2F;
+        font-weight: bold;
+        font-size: 52px;
+        margin-left: 41px;
+       
+    }
+    .ilkMetin{
+        font-family: Poppins,sans-serif;
+        color: #333333;
+        font-weight: 500;
+        font-size: 18px;
+        margin-left: 41px;
+        
+    }
+    .ilkButton{
+        font-family: Poppins,sans-serif;
+        width: 35%;
+        background-color: #B88E2F;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        margin-left: 41px;
+        margin-bottom: 50px;
+    }
+    .ilkButton:hover{
+        cursor: pointer;
+    }
+    .kategori{
+        margin-top: 56px;
+        width: 100%;
+        height: 685;
+        display: grid;
+        grid-template-rows: 10% 10% 80%;
+        place-items: center;
+    }
+    .kategoriBaslik{
+        font-family: Poppins,sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+
+    }
+    .kategoriMetin{
+        font-family: Poppins,sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+
+    }
+    .kategoriResimler{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 2%;
+        
+        
+    }
+    .kutu{
+        display: grid;
+        grid-template-rows: 90% 10%;
+        align-items: center;
+        
+    }
+    .kutu img{
+        border-radius: 16px;
+        height: 100%;
+    }
+    .kutu span{
+        font-family: Poppins,sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        margin-left: 35%;
+    }
