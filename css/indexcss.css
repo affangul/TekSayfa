@@ -64,14 +64,14 @@
         margin-left: 10%;
     }
     .ikonlar{
-        margin-top: 32px;
+        margin-top: 36px;
         display: flex;
         justify-content: flex-end;
         margin-right: 20%;
     }
     .ikonlar img {
         width: 100%;
-        height: 60%;
+        height: auto;
     }
     .ikonlar a{
         text-decoration: none;
