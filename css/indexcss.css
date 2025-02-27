@@ -226,6 +226,7 @@
         grid-template-rows: 1fr;
         grid-template-areas: "ürünResim" "ürünBilgi";
     }
+
     .ürünlerKutuResim{
         grid-area: ürünResim;
         width: 100%;
@@ -234,6 +235,7 @@
         width: 285px;
         height: 301px;
     }
+    
     .ürünKutuBilgi{
         grid-area: ürünBilgi;
         width: 88%;
