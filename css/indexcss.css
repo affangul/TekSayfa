@@ -62,6 +62,7 @@
         text-decoration: none;
         color: black;
         margin-left: 10%;
+        
     }
     .ikonlar{
         margin-top: 36px;
@@ -182,4 +183,115 @@
         font-weight: 600;
         font-size: 24px;
         margin-left: 35%;
+    }
+    .ürünler{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5% 90% 5%;
+        grid-template-areas: "ürünlerBaslik" "ürünlerBilgi" "ürünlerTus";
+        
+        width: 100%;
+        height: 1084px;
+        margin-top: 56px;
+    }
+    .ürünlerBaslik{
+        display: grid;
+        place-items: center;
+        grid-area: ürünlerBaslik;
+        font-family: Poppins,sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        margin-top: 0px;
+        
+    }
+    .ürünlerSira{
+        margin-top: 0px;
+        grid-area: ürünlerBilgi;
+        width: 100%;
+        height: 446px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        place-items: center;
+        gap: 32px;
+
+    }
+
+
+    .ürünlerKutu{
+        width: 285px;
+        height: 446px;
+        display: grid;
+        grid-template-columns:  301px 145px;
+        grid-template-rows: 1fr;
+        grid-template-areas: "ürünResim" "ürünBilgi";
+    }
+    .ürünlerKutuResim{
+        grid-area: ürünResim;
+        width: 100%;
+    }
+    .ürünlerKutuResim img {
+        width: 285px;
+        height: 301px;
+    }
+    .ürünKutuBilgi{
+        grid-area: ürünBilgi;
+        width: 88%;
+        height: 99px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "ürünBaslik ürünBaslik" "ürünTür ürünTür" "ürünFiyat ürünEski";
+        background-color: #F4F5F7;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 11px;
+        padding-bottom: 21px;
+        
+    }
+    .ürünlerKutuBaslik{
+        grid-area: ürünBaslik;
+        font-family: Poppins,sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        color: 3A3A3A;
+    }
+    .ürünlerKutuTür{
+        grid-area: ürünTür;
+        font-family: Poppins,sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #898989;
+    }
+    .ürünlerKutuFiyat{
+        grid-area: ürünFiyat;
+        font-family: Poppins,sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: #3A3A3A;
+        
+    }
+    .ürünlerKutuEski{
+        display: grid;
+        grid-area: ürünEski;
+        font-family: Poppins,sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #B0B0B0;
+        text-decoration: line-through;
+        margin-left: 25%;
+    }
+    .ürünlerButton{
+        margin-top: 0px;
+        grid-area: ürünlerTus;
+        place-self: center;
+        width: 245px;
+        height: 48px;
+    }
+    .ürünlerButton button{
+        width: 100%;
+        height: 100%;
+        color:#B88E2F;
+        border: 1px solid #B88E2F;
+        background-color: white;
     }
