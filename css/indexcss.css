@@ -45,8 +45,8 @@
         justify-content: flex-end;
     }
     .logoResim img{
-        width: 40%;
-        height: 75%;
+        width: 50px;
+        height: 32px;
         margin-right: 5%;
     }
     .sayfalar {
@@ -82,6 +82,7 @@
     .ilkTanitim {
         width: 100%;
         height: 718.53px;
+        max-height: 719px;
         background-image: url('../img/scandinavian-interior-mockup-wall-decal-background 1.png');
         background-size: cover;
         background-position: center;
@@ -392,3 +393,78 @@
         width: 100%;
         height: auto;
     }
+    .kisiselTasarimlarResim img{
+        width: 100%;
+        max-height: 721px;
+    }
+    .altNavbar{
+        width: 100%;
+        height: 505px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-rows: 10% 80% 10%;
+    }
+    .altNavbarYukari{
+        
+        padding: 0 10%;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 30% 20% 20% 30%;
+    }
+    .altNavbarFuniro{
+        margin-bottom: 59px;
+        font-family: Poppins,sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000;
+    }
+    .altNavbarMetin{
+        font-family: Poppins,sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #9F9F9F;
+    }
+    .altNavbarBaslik{
+        font-family: Poppins,sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #9F9F9F;
+        margin-bottom: 51px;
+    }
+    .altNavbarLink{
+        margin-bottom: 46px;
+        
+    }
+    .altNavbarLink a{
+        text-decoration: none;
+        color: #000000;
+        font-family: Poppins,sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .altNavbarKullanici{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+    .altNavbarKullanici input{
+        border: none;
+        border-bottom: 1px solid #000000;
+        font-family: Poppins,sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #9F9F9F;
+    }
+    .altNavbarKullanici button{
+        background-color: #FFFFFF;
+        border: none;
+        border-bottom: 1px solid #000000;
+        font-family: Poppins,sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+    }
+    .altNavbarAlt{
+        padding: 0 10%;
+    }
+    
